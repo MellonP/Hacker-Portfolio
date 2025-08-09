@@ -45,7 +45,7 @@ const Contact = () => {
 
         <section className="py-16">
           <div className="container max-w-md mx-auto reveal rounded-lg border border-primary/30 bg-secondary/20 p-6">
-            <h2 className="text-xl font-semibold text-primary mb-4">Get In Touch</h2> /* Section title for contact form */
+            <h2 className="text-xl font-semibold text-primary mb-4">Get In Touch</h2>
             <form className="space-y-4" onSubmit={e => e.preventDefault()}>
               <input
                 type="text"

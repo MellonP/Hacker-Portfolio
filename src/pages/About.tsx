@@ -54,7 +54,7 @@ const About = () => {
               </p> {/* Philosophy of the developer */}
             </article>
             <article className="reveal rounded-lg border border-primary/30 bg-secondary/20 p-6">
-              <h2 className="text-xl font-semibold text-primary">Capabilities</h2> /* Capabilities of the developer */
+              <h2 className="text-xl font-semibold text-primary">Capabilities</h2> {/* Capabilities of the developer */}
               <ul className="mt-3 grid grid-cols-2 gap-2 text-sm font-mono">
                 {["React", "TypeScript", "Tailwind", "GSAP", "Shadcn", "Vite"].map((s) => (
                   <li key={s} className="rounded border border-border bg-secondary/30 px-3 py-2">{s}</li>
