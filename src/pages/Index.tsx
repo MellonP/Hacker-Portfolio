@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useGsapScrollFade } from "@/hooks/useGsapScrollFade";
-import { Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react"; // ✅ Fixed imports
 
 const projects = [
   { title: "Quantum Cipher", desc: "GPU-accelerated cipher playground with real-time visualization.", href: "#" },
-  { title: "Neon HUD", desc: "UI kit for sci‑fi dashboards built with React + Tailwind.", href: "#" },
+  { title: "Neon HUD", desc: "UI kit for sci-fi dashboards built with React + Tailwind.", href: "#" },
   { title: "Ghost Proxy", desc: "Lightweight proxy rotator with live metrics UI.", href: "#" },
   { title: "Matrix Parser", desc: "Stream parser for log pipelines with anomaly flags.", href: "#" },
   { title: "Grid Sentinel", desc: "Policy-based firewall visualizer and rule tester.", href: "#" },
@@ -31,22 +31,22 @@ const Index = () => {
           <article className="container text-center max-w-3xl mx-auto reveal">
             <span className="inline-block rounded border border-primary/30 bg-secondary/40 px-3 py-1 text-xs tracking-widest text-primary uppercase">
               Hacker Portfolio
-            </span> // Hero tag line
+            </span> {/* Hero tag line */}
             <h1
               className="mt-6 text-4xl md:text-6xl font-extrabold leading-tight glitch"
               data-text="Neon Matrix Developer"
             >
               Neon Matrix Developer
-            </h1> // Hero title
+            </h1> {/* Hero title */}
             <p className="mt-4 text-muted-foreground">
-              Dark sci‑fi template with Matrix code rain, GSAP scroll reveals, and a neon green accent system.
+              Dark sci-fi template with Matrix code rain, GSAP scroll reveals, and a neon green accent system.
               Fast, responsive, and easy to customize.
-            </p> // Hero description
+            </p> {/* Hero description */}
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <a href="#projects">
                 <Button className="bg-primary text-primary-foreground hover:opacity-90">
                   View Projects
-                </Button> // Button to view projects
+                </Button> {/* Button to view projects */}
               </a>
               <a href="#contact">
                 <Button variant="outline">Contact</Button>
@@ -63,7 +63,7 @@ const Index = () => {
               <p className="mt-3 text-muted-foreground">
                 I craft immersive, performant interfaces with React, Tailwind, and GSAP. My work blends
                 hacker aesthetics with clean architecture and accessibility.
-              </p> // Brief about the developer
+              </p> {/* Brief about the developer */}
               <ul className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm font-mono">
                 {[
                   "React",
@@ -79,12 +79,7 @@ const Index = () => {
                 ))}
               </ul>
               <div className="mt-6 flex gap-4">
-                <a href="#" aria-label="GitHub" className="text-muted-foreground hover:text-primary">
-                  <Github className="h-5 w-5" />
-                </a>
-                <a href="#" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary">
-                  <Linkedin className="h-5 w-5" />
-                </a>
+      
                 <a href="#contact" aria-label="Email" className="text-muted-foreground hover:text-primary">
                   <Mail className="h-5 w-5" />
                 </a>
@@ -129,7 +124,7 @@ const Index = () => {
                       aria-label={`Open ${p.title}`}
                     >
                       View details →
-                    </a> // Link to project details
+                    </a> {/* Link to project details */}
                   </div>
                 </article>
               ))}
