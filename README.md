@@ -1,8 +1,7 @@
 # Matrix Rain Portfolio Template  
 _A responsive, dark-themed hacker-style portfolio website built with React, Tailwind CSS, and GSAP animations._
-
-![Preview Screenshot](preview.png)  
-[**Live Demo →**](https://your-demo-link.com)
+  
+[**Live Demo →**](https://hacker-portfolio-omega.vercel.app/)
 
 ---
 
