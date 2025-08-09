@@ -1,5 +1,5 @@
-// This file contains the main CSS styles for the application
-// It includes styles for the root element, logo, animations, and various components
+/* This file contains the main CSS styles for the application */
+/* It includes styles for the root element, logo, animations, and various components */
 
 @tailwind base;
 @tailwind components;
