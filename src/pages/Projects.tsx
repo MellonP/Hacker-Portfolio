@@ -39,7 +39,7 @@ const Projects = () => {
             <h1 className="text-4xl md:text-5xl font-extrabold text-primary">Projects</h1>
             <p className="mt-4 text-muted-foreground">
               Explore a curated selection of projects demonstrating skills in React, TypeScript, Tailwind CSS, and GSAP.
-            </p> // Projects page description
+            </p> /* Projects page description */
           </article>
         </section>
 
@@ -56,7 +56,7 @@ const Projects = () => {
               <h2 className="text-xl font-semibold text-primary">Project Two</h2>
               <p className="mt-2 text-sm text-muted-foreground">
                 A performance-optimized SPA demonstrating advanced TypeScript and state management techniques.
-              </p> // Another project description
+              </p> /* Another project description */
             </article>
             {/* Add more projects as needed */}
           </div>

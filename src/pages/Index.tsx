@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useGsapScrollFade } from "@/hooks/useGsapScrollFade";
-import { Github, Linkedin, Mail } from "lucide-react"; // ✅ Fixed imports
+import { Github, Linkedin, Mail } from "lucide-react"; 
 
 const projects = [
   { title: "Quantum Cipher", desc: "GPU-accelerated cipher playground with real-time visualization.", href: "#" },

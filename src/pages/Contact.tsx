@@ -39,13 +39,13 @@ const Contact = () => {
             <h1 className="text-4xl md:text-5xl font-extrabold text-primary">Contact Me</h1>
             <p className="mt-4 text-muted-foreground">
               Feel free to reach out for collaborations, inquiries, or just a friendly chat.
-            </p> // Contact page description
+            </p> /* Contact page description */
           </article>
         </section>
 
         <section className="py-16">
           <div className="container max-w-md mx-auto reveal rounded-lg border border-primary/30 bg-secondary/20 p-6">
-            <h2 className="text-xl font-semibold text-primary mb-4">Get In Touch</h2> // Section title for contact form
+            <h2 className="text-xl font-semibold text-primary mb-4">Get In Touch</h2> /* Section title for contact form */
             <form className="space-y-4" onSubmit={e => e.preventDefault()}>
               <input
                 type="text"
@@ -67,7 +67,7 @@ const Contact = () => {
                 className="inline-block rounded bg-primary px-6 py-2 text-sm font-semibold text-background hover:bg-primary/90"
               >
                 Send Message
-              </button> // Submit button for the contact form
+              </button> /* Submit button for the contact form */
             </form>
           </div>
         </section>
@@ -76,7 +76,7 @@ const Contact = () => {
       <footer className="border-t border-border py-10">
         <div className="container text-center text-xs text-muted-foreground">
           © {new Date().getFullYear()} Neon Matrix Portfolio Template.
-        </div> // Footer with current year
+        </div> /* Footer with current year */
       </footer>
     </>
   );
